@@ -730,30 +730,30 @@
       </div>
 
 <div class="contact-form glass">
-  <form netlify name="portfolio-contact" method="POST" netlify-honeypot="bot-field">
-    <input type="hidden" name="form-name" value="portfolio-contact">
-    
-    <div class="form-row">
-      <div class="form-group">
-        <label for="fname">Nome</label>
-        <input type="text" id="fname" name="nome" placeholder="Seu nome" required>
-      </div>
-      <div class="form-group">
-        <label for="femail">Email</label>
-        <input type="email" id="femail" name="email" placeholder="seu@email.com" required>
-      </div>
+<form name="portfolio-contact" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="portfolio-contact">
+  
+  <div class="form-row">
+    <div class="form-group">
+      <label for="fname">Nome</label>
+      <input type="text" id="fname" name="nome" placeholder="Seu nome" required>
     </div>
     <div class="form-group">
-      <label for="fsubject">Assunto</label>
-      <input type="text" id="fsubject" name="assunto" placeholder="Ex: Oportunidade de emprego">
+      <label for="femail">Email</label>
+      <input type="email" id="femail" name="email" placeholder="seu@email.com" required>
     </div>
-    <div class="form-group">
-      <label for="fmsg">Mensagem</label>
-      <textarea id="fmsg" name="mensagem" placeholder="Conte mais sobre o que você tem em mente..." required></textarea>
-    </div>
-    <button type="submit" class="form-submit">Enviar Mensagem</button>
-    <div class="form-msg" id="formMsg" style="display:none;"></div>
-  </form>
+  </div>
+  <div class="form-group">
+    <label for="fsubject">Assunto</label>
+    <input type="text" id="fsubject" name="assunto" placeholder="Ex: Oportunidade de emprego">
+  </div>
+  <div class="form-group">
+    <label for="fmsg">Mensagem</label>
+    <textarea id="fmsg" name="mensagem" placeholder="Conte mais sobre o que você tem em mente..." required></textarea>
+  </div>
+  <button type="submit" class="form-submit">Enviar Mensagem</button>
+  <div class="form-msg" id="formMsg" style="display:none;"></div>
+</form>
 </div>
     </div>
   </div>
